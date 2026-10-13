@@ -1,0 +1,43 @@
+"""Name: John Doe
+Contact: john.doe@example.com | +1 (555) 123-4567 | LinkedIn: linkedin.com/in/johndoe | GitHub: github.com/johndoe
+
+Summary:
+Data Scientist with 4 years of experience in building production ML models, designing data pipelines, and delivering analytics solutions. Strong background in Python, statistics, machine learning, and NLP.
+
+Technical Skills:
+- Programming: Python, SQL, R
+- ML/DL: scikit-learn, XGBoost, LightGBM, TensorFlow, PyTorch
+- Data Engineering: Pandas, NumPy, Apache Airflow, Spark
+- Visualization: Matplotlib, Seaborn, Plotly, Tableau
+- Cloud & DevOps: AWS (S3, EC2, SageMaker), Docker, Git, CI/CD
+- Techniques: Feature engineering, model evaluation, A/B testing, hyperparameter tuning, model monitoring
+
+Professional Experience:
+Data Scientist | Acme Analytics | Jan 2021 – Present
+- Led end-to-end development of a customer churn prediction pipeline using XGBoost, improving retention by 18%.
+- Built scalable ETL workflows with Airflow and Spark to process 10M+ records/week.
+- Containerized models with Docker and deployed on AWS SageMaker; implemented monitoring and alerting.
+
+Machine Learning Engineer | BetaTech Solutions | Jun 2019 – Dec 2020
+- Developed a recommendation system combining collaborative filtering and gradient boosting, increasing user engagement by 12%.
+- Automated model training and experiment tracking; reduced iteration time by 40%.
+
+Selected Projects:
+- Sales Forecasting: Hybrid time-series model (Prophet + XGBoost) to forecast weekly sales; reduced MAPE by 25%.
+- NLP Resume Parser: Transformer-based entity extraction and skill classification served via FastAPI.
+- Image QA: CNN (PyTorch) for defect detection achieving 94% accuracy; integrated into QA pipeline.
+
+Education:
+M.S. in Data Science, University of Example, 2019
+B.S. in Computer Science, State College, 2017
+
+Certifications:
+- AWS Certified Machine Learning – Specialty
+- Coursera: Deep Learning Specialization
+
+Publications & Talks:
+- "Improving Churn Prediction with Feature Interactions", DataConf 2023
+
+References:
+Available upon request
+"""

@@ -1,0 +1,5 @@
+There are two big reasons why chunking is necessary for any application involving vector databases or LLMs: to ensure embedding models can fit the data into their context windows, and to ensure the chunks themselves contain the information necessary for search.
+
+All embedding models have context windows, which determine the amount of information in tokens that can be processed into a single fixed size vector. Exceeding this context window may means the excess tokens are truncated, or thrown away, before being processed into a vector. This is potentially harmful as important context could be removed from the representation of the text, which prevents it from being surfaced during a search.
+
+Furthermore, it isn’t enough just to right-size your data for a model; the resulting chunks must contain information that is relevant to search over. If the chunk contains a set of sentences that aren’t useful without context, they may not be surfaced when querying!
